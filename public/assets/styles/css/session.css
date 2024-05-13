@@ -1,0 +1,49 @@
+.auth-layout-wrap .login-card{
+    min-width: 400px;
+}
+
+.form-error{
+    font-weight: 500;
+    color: red;
+    font-size:14px;
+}
+
+#pageloader
+{
+    background: rgba( 255, 255, 255, 0.8 );
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+#pageloader span
+{
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    position: absolute;
+    top: 50%;
+}
+
+.auth-logo img{
+    width:95%;
+    height:auto;
+}
+
+.required{
+    color: #d93025;
+}
+
+.complete-signup img{
+    width: 50% !important;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block{
+    display:block;
+}

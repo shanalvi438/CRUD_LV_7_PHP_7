@@ -1,0 +1,36 @@
+.padding-left-right{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.custom-dropdown{
+    width: 100% !important;
+}
+.card-body{
+    clear: both;
+}
+.pagination-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.pagination-container.float-right{
+    float: none !important;
+}
+.pagination-container .pagination {
+    margin-bottom: 0;
+}
+
+
+@media(max-width: 1365px){
+    .mr-2{
+        margin-right: 0 !important;
+    }
+    .table .text-center{
+        text-align: center !important;
+    }
+}
+
+@media(max-width: 479px){
+    .auth-layout-wrap .login-card{
+        min-width: 300px;
+    }
+}
